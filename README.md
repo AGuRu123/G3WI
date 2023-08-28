@@ -7,15 +7,11 @@
 # Description of data sets
 The data set "IT_corel15k" stores the original training and testing data, additionally a struct called "para" stores the calculated Information-theory-based criteria, the following are the useful details: 
 
-para.MIxy: A matrix whose $(i,j)_{th}$ element stores the mutual information between $f_i$ and $l_j$. para.IGxxy: A cell contains $a_$
+`para.MIxy`: A matrix whose $(i,j)_{th}$ element stores the mutual information $I(f\_i;f\_i)$;
 
+`para.IGxxy`: A cell contains $q$ matrices, $q$ is the number of labels. The $(i,j)\_{th}$ element in the $k\_{th}$ matrix stores the information gain $IG(f\_i;f\_j;l\_k)$;
 
-$q$ matrices, $q$ is the number of labels. The $(i,j)_{th}$ element in the $k_{th}$ matrix stores the information gain $IG$.
-
-para.IGxyy: A cell contains $d$ matrices, $d$ is the number of features.
-
-
-
+`para.IGxyy`: A cell contains $d$ matrices, $q$ is the number of features. The $(k,j)\_{th}$ element in the $i\_{th}$ matrix stores the information gain $IG(f\_i;l\_k;l\_j)$.
 
 # Main contributions
 1. As a gradient-based method, we first investigate the problem of changing variable correlations in MLFS and propose a numerical optimization framework by considering such three-way interactions.           
