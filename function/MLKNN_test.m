@@ -1,4 +1,4 @@
-function [Outputs,Pre_Labels]=MLKNN_test1(train_data,train_target,test_data,test_target,Num,Prior,PriorN,Cond,CondN) 
+function [Outputs,Pre_Labels]=MLKNN_test(train_data,train_target,test_data,test_target,Num,Prior,PriorN,Cond,CondN) 
 %MLKNN_test tests a multi-label k-nearest neighbor classifier. 
 % 
 %    Syntax 
