@@ -1,4 +1,4 @@
-function [rank,time] = G3WI1(para,Apara)
+function [rank,time] = G3WI(para,Apara)
 % Gradient-based multi-label feature selection considering 3-Way Interaction
     start = tic;
     alpha = Apara.alpha;
