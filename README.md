@@ -7,7 +7,7 @@
 # Description of data sets
 The data set "IT_emotions" stores the original training and testing data, additionally a struct called "para" stores the calculated Information-theory-based criteria, the following are the useful details: 
 
-`para.MIxy`: A matrix whose $(i,j)_{th}$ element stores the mutual information $I(f\_i;f\_j)$;
+`para.MIxy`: A matrix whose $(i,j)_{th}$ element stores the mutual information $I(f\_i;l\_j)$;
 
 `para.IGxxy`: A cell contains $q$ matrices, $q$ is the number of labels. The $(i,j)\_{th}$ element in the $k\_{th}$ matrix stores the information gain $IG(f\_i;f\_j;l\_k)$;
 
