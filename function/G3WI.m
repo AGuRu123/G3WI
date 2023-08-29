@@ -7,10 +7,10 @@ function [rank,time] = G3WI1(para,Apara)
     tol = Apara.tol;
     C = para.MIxy;R = para.IGxxy;D = para.IGxyy;
     for i = 1:length(R)
-       R{i} = (1 - R{i} )/2; %FIC feature interaction coefficient
+       R{i} = (1 - R{i})/2; %FIC feature interaction coefficient
     end
     for i = 1:length(D)
-       D{i} = (1 - D{i} )/2; %LIC label interaction coefficient
+       D{i} = (1 - D{i})/2; %LIC label interaction coefficient
     end
     Z = zeros(size(C));[d,q] = size(Z);
     convergence = zeros(1,MaxIter);
