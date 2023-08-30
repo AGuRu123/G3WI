@@ -5,7 +5,7 @@
 
 
 # Description of data sets
-The data set "IT_emotions" stores the original training and testing data, additionally a struct called "para" stores the calculated Information-Theory-based criteria, the following are the useful details: 
+The data set "IT_emotions" stores the original training and testing data, additionally a struct called "para" stores the calculated Information-theory-based criteria, the following are the useful details: 
 
 `para.MIxy`: A matrix whose $(i,j)_{th}$ element stores the mutual information $I(f\_i;l\_j)$;
 
