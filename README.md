@@ -20,6 +20,6 @@ The data set "IT_emotions" stores the original training and testing data, additi
 
 3. We optimize the objective function via iterative coordinate descent for each block of the feature importance matrix, and the closed-form solution of each block is easily obtained as the stationary point of a quadratic function.
  
-# Publication
- The paper has been accepted by Pattern Recognition.2023
+# Reference
+ Zou Y, Hu X, Li P. Gradient-based multi-label feature selection considering three-way variable interaction[J]. Pattern Recognition, 2024, 145: 109900.
 
