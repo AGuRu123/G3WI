@@ -14,7 +14,7 @@ The data set "IT_emotions" stores the original training and testing data, additi
 
 `para.IGxyy`: A cell contains $d$ matrices, $d$ is the number of features. The $(k,j)\_{th}$ element in the $i\_{th}$ matrix stores the information gain $IG(f\_i;l\_k;l\_j)$.
 
-# Details about calculations of Information-theory based criteria
+# Calculations of Information-theory based criteria
 On the same homepage, another repository namely "https://github.com/AGuRu123/LOFS/tree/master/LOFS_Matlab/correlation_measure/mi" has two functions "mi" and "cmi" calculating mutual information and conditional information, where information gain (IG) used in G3WI can be calculated as the difference between them. For more details, see our paper: "Gradient-based multi-label feature selection considering three-way variable interaction".
 
 # Main contributions
